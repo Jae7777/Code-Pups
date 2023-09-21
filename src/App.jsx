@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/Header.jsx'
 import puppy from './assets/puppy.png'
 import justin from './assets/justin.jpg'
 
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <div class="min-h-screen justify-center items-center">
         <div class="text-sky-500 dark:text-sky-400 text-center">
           THE TEAM
@@ -16,17 +18,17 @@ function App() {
           <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
             <blockquote>
               <p class="text-lg font-medium">
-                “Tailwind CSS is the only framework that I've seen scale
-                on large teams. It’s easy to customize, adapts to any design,
-                and the build size is tiny.”
+                "Poeple who choose to pursue the arts have a unique brain. 
+                They either fully believe in their pursuits, or fall short in confidence. 
+                I am of the latter. That's why I am coding."
               </p>
             </blockquote>
             <figcaption class="font-medium">
               <div class="text-sky-500 dark:text-sky-400">
-                Sarah Dayan
+                Justin Chen
               </div>
               <div class="text-slate-700 dark:text-slate-500">
-                Staff Engineer, Algolia
+                Head Developer
               </div>
             </figcaption>
           </div>
