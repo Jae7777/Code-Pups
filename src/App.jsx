@@ -1,5 +1,7 @@
 import { useState } from 'react'
+
 import Header from './components/Header.jsx'
+import Hero from './components/Hero.jsx'
 import puppy from './assets/puppy.png'
 import justin from './assets/justin.jpg'
 
@@ -9,6 +11,7 @@ function App() {
   return (
     <>
       <Header />
+      <Hero />
       <div class="min-h-screen justify-center items-center">
         <div class="text-sky-500 dark:text-sky-400 text-center">
           THE TEAM
