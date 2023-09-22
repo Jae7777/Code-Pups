@@ -16,7 +16,7 @@ function App() {
       <About />
       <Projects />
       <div>
-        <img src={puppy} alt="Ascii Puppy" class="w-64 h-64 mx-auto"/>
+        <img src={puppy} alt="Ascii Puppy" className="w-64 h-64 mx-auto"/>
       </div>
       
     </>

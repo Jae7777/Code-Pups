@@ -27,7 +27,7 @@ export default function Projects() {
         
         <div className="flex justify-center px-[50px] sm:px-[10px] lg:px-[100px] py-8">
           {projects.map((item) => (
-            <div className='flex flex-col p-3'>
+            <div key={item.id} className='flex flex-col p-3'>
               <h1 className='text-[20px] md:text-[30px] lg:text-[40px]
               font-bold'>{item.title}</h1>
               {item.status=="In Progress" ? 
