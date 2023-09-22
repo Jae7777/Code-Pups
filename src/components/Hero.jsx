@@ -12,7 +12,7 @@ export default function Hero() {
           <h2 className='text-white text-[36px]
             lg:text-[47px] font-bold'>We aim for serious impact.</h2>
           <div className='flex gap-5 mt-5'>
-              <button className='bg-transparent border-2 border-white
+              <button className='bg-transparent border-2 border-white px-[8px] py-[4px]
               text-white cursor-pointer hover:border-gray-500'>WHAT WE DO</button>
 
           </div>
